@@ -9,5 +9,8 @@ def leap_year(year):
                 return True
             else:
                 return False
-        
+            
+def leap_year(year):
+    if(year%4==0):
+        return True
    
